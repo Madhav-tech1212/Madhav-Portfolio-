@@ -1,18 +1,13 @@
-
 import { Github, Linkedin, Twitter, MessageCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-
 const Hero = () => {
-  return (
-    <section id="home" className="min-h-screen flex items-center justify-center pt-16 px-4">
+  return <section id="home" className="min-h-screen flex items-center justify-center pt-16 px-4">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
         <div className="text-center lg:text-left animate-fade-in">
           <h1 className="text-5xl lg:text-7xl font-bold text-portfolio-text mb-4">
             Hello<span className="text-portfolio-accent">.</span>
           </h1>
-          <h2 className="text-2xl lg:text-3xl text-portfolio-text mb-2">
-            I'm Madhav
-          </h2>
+          <h2 className="text-2xl text-portfolio-text mb-2 lg:text-6xl font-bold">I'm Madhav Karthickk</h2>
           <h3 className="text-3xl lg:text-4xl font-bold text-portfolio-text mb-6">
             Web3 Developer
           </h3>
@@ -51,18 +46,12 @@ const Hero = () => {
           <div className="relative">
             <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-br from-portfolio-accent to-blue-600 p-1 animate-glow">
               <div className="w-full h-full rounded-full bg-portfolio-bg flex items-center justify-center overflow-hidden">
-                <img 
-                  src="https://i.postimg.cc/59Qpbkyr/green1.png" 
-                  alt="Madhav Karthickk"
-                  className="w-72 h-72 lg:w-88 lg:h-88 rounded-full object-cover"
-                />
+                <img src="https://i.postimg.cc/59Qpbkyr/green1.png" alt="Madhav Karthickk" className="w-72 h-72 lg:w-88 lg:h-88 rounded-full object-cover" />
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
