@@ -1,6 +1,8 @@
 
 import { Github, Linkedin, Twitter, MessageCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import Contact from '@/components/Contact';
+
 
 const Hero = () => {
   return (
@@ -38,12 +40,21 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
-            <Button className="bg-portfolio-accent hover:bg-portfolio-accent/80 text-white px-8 py-3 text-lg">
-              Get a project
-            </Button>
-            <Button variant="outline" className="border-portfolio-accent text-portfolio-accent hover:bg-portfolio-accent hover:text-white px-8 py-3 text-lg">
-              My resume
-            </Button>
+            <a href="#contact">
+              <Button className="bg-portfolio-accent hover:bg-portfolio-accent/80 text-white px-8 py-3 text-lg">
+                Get a project
+              </Button>
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1KBPfs8ItOOAFZ-KyIwrjEM1_fVEYK4wS/view?usp=drive_link"
+            >
+              <Button
+                variant="outline"
+                className="border-portfolio-accent text-portfolio-accent hover:bg-portfolio-accent hover:text-white px-8 py-3 text-lg"
+              >
+                My resume
+              </Button>
+            </a>
           </div>
 
           <div className="flex justify-center lg:justify-start space-x-6">
