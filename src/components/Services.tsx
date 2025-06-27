@@ -1,5 +1,5 @@
 
-import { Code, Smartphone, Globe, Blocks, Users, Zap } from 'lucide-react';
+import { Code, Smartphone, Globe, Blocks, Zap } from 'lucide-react';
 
 const Services = () => {
   const services = [
@@ -22,11 +22,6 @@ const Services = () => {
       icon: <Smartphone size={32} />,
       title: 'WordPress Development',
       description: 'Custom WordPress solutions for businesses and communities, including plugins, themes, and complex business logic integration.'
-    },
-    {
-      icon: <Users size={32} />,
-      title: 'Hackathon Team Building',
-      description: 'Strategic team formation and technical guidance for hackathons, with proven track record of winning placements.'
     },
     {
       icon: <Zap size={32} />,
