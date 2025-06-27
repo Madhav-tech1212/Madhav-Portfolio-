@@ -125,7 +125,8 @@ export default {
 				'fade-in': 'fade-in 0.6s ease-out',
 				'slide-in': 'slide-in 0.6s ease-out',
 				'glow': 'glow 2s ease-in-out infinite'
-			}
+			},
+			scrollBehavior: ['responsive'], // Optional if you're using class
 		}
 	},
 	plugins: [require("tailwindcss-animate")],

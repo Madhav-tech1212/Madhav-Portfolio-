@@ -76,7 +76,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="bg-portfolio-card p-8 rounded-lg">
+          <div className="bg-portfolio-card p-6 rounded-lg">
             <form className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-portfolio-text mb-2">

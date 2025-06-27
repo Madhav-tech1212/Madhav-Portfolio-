@@ -33,7 +33,7 @@ const About = () => {
 
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
           <div className="animate-slide-in">
-            <p className="text-lg text-portfolio-text/80 leading-relaxed mb-6">
+            <p className="text-lg text-portfolio-text/80 leading-relaxed mb-6 text-justify:inter-word;">
               I started my software journey from photography. Through that, I learned to 
               love the process of creating new spaces, from the lens space of the 
               camera and into functional systems. I evolved into making custom 
