@@ -27,14 +27,6 @@ const Projects = () => {
       liveUrl: '#',
       githubUrl: '#',
       image: '/api/placeholder/400/250'
-    },
-    {
-      title: 'Chennai Freelancers Platform',
-      description: 'Community website for Chennai Freelancers Club supporting 3,000+ attendees for Global Freelancers Festival 2025.',
-      technologies: ['WordPress', 'Community Management', 'Event Planning'],
-      liveUrl: '#',
-      githubUrl: '#',
-      image: '/api/placeholder/400/250'
     }
   ];
 
