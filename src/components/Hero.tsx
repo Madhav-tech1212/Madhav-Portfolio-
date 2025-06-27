@@ -50,10 +50,12 @@ const Hero = () => {
         <div className="flex justify-center lg:justify-end animate-fade-in">
           <div className="relative">
             <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-br from-portfolio-accent to-blue-600 p-1 animate-glow">
-              <div className="w-full h-full rounded-full bg-portfolio-bg flex items-center justify-center">
-                <div className="w-72 h-72 lg:w-88 lg:h-88 rounded-full bg-gradient-to-br from-portfolio-accent/20 to-transparent flex items-center justify-center text-6xl lg:text-8xl font-bold text-portfolio-accent">
-                  MK
-                </div>
+              <div className="w-full h-full rounded-full bg-portfolio-bg flex items-center justify-center overflow-hidden">
+                <img 
+                  src="https://i.postimg.cc/59Qpbkyr/green1.png" 
+                  alt="Madhav Karthickk"
+                  className="w-72 h-72 lg:w-88 lg:h-88 rounded-full object-cover"
+                />
               </div>
             </div>
           </div>
