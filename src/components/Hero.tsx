@@ -46,7 +46,7 @@ const Hero = () => {
               </Button>
             </a>
             <a
-              href="https://drive.google.com/file/d/1KBPfs8ItOOAFZ-KyIwrjEM1_fVEYK4wS/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1KBPfs8ItOOAFZ-KyIwrjEM1_fVEYK4wS/view?usp=sharing"
             >
               <Button
                 variant="outline"
